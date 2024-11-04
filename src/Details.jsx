@@ -1,7 +1,8 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logonew.png";
+import logogradient from "./assets/logofinal.png";
 import logo from "./assets/logo.svg";
+import mail from "./assets/mail.png";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -30,6 +31,7 @@ import projectImage6 from "./assets/projects/project6.jpg";
 // Logos
 export const logos = {
   logogradient: logogradient,
+  mail: mail,
   logo: logo,
 };
 
@@ -38,57 +40,47 @@ export const personalDetails = {
   name: "Thank You!",
   // tagline: "Please click on the menu above more information",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I’m I Ketut Krishna Mahendra Putra called Krishna or Kaem and this is my profile. I am a fresh graduate in Information Technology from Udayana University in Bali, actively seeking new opportunities. My passion and expertise lie in mobile app development, with a particular focus on using the Flutter Framework.`,
+};
+
+export const certifDetails = {
+  certif: `sertif 1 itu merupakan tentang java, sertif 2 tentang kotlin`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/krishnaamp",
+  github: "https://www.github.com/krishnaamp123",
+  email: "mailto:krishnamahendra1234@gmail.com",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Information Technology Intern",
+    Description: "Creating mobile applications, APIs, and admin websites for retail applications",
+    Company: `Expat. Roasters`,
+    Location: "Bali",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Sep 2024 - Present",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "Bachelor’s Degree in Information Technology ",
+    Company: "Udayana University",
+    Description: "Majoring in information systems and focusing on mobile application development",
+    Location: "Bali",
+    Duration: "Sep 2020 - Aug 2024",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Android Java for Mobile Developer SIB Kampus Merdeka",
+    Company: `PT. Hacktivate Teknologi Indonesia`,
+    Description: "Learning about Mobile Development, especialy Android Development using Java Native and Kotlin",
+    Location: "Jakarta",
+    Duration: "Aug 2022 - Dec 2022",
   },
 ];
 
