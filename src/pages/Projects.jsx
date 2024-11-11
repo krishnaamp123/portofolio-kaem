@@ -6,7 +6,7 @@ function Projects() {
   return (
     <main className="bg-dark-mode container mx-auto max-width pt-5 pb-20">
       <section>
-        <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
+        <h1 className="text-xl text-cream dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
           Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">

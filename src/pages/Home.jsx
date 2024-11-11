@@ -61,7 +61,7 @@ function Home() {
       <div>
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-light-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           Welcome…🖐🏼<br></br>Please click on the menu above<br></br>for more information<br></br>
         </h1>

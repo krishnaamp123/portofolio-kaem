@@ -73,14 +73,14 @@ function Header() {
                 alt="Email"
                 width="30"
                 height="30"
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-light-heading"
               />
             </a>
           </li>
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-light-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -94,7 +94,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-light-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"

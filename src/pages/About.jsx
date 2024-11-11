@@ -1,19 +1,19 @@
 import React from "react";
 import Work from "../components/Work";
 import Certificate from "../components/Certificate";
-import { personalDetails, workDetails, eduDetails, certifDetails} from "../Details";
+import { personalDetails, workDetails, eduDetails} from "../Details";
 
 function About() {
   return (
     <main className="bg-dark-mode container mx-auto max-width pt-5 pb-20">
       <section>
-      <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
+      <h1 className="text-xl text-cream dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
           About Me
         </h1>
         <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
       </section>
       <section>
-      <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
+      <h1 className="text-xl text-cream dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
           Experience
         </h1>
         {React.Children.toArray(
@@ -30,7 +30,7 @@ function About() {
         )}
       </section>
       <section>
-      <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
+      <h1 className="text-xl text-cream dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
           Education
         </h1>
         {React.Children.toArray(

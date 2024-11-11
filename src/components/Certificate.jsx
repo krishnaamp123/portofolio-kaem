@@ -14,7 +14,7 @@ function Certificate() {
 
   return (
     <div>
-      <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
+      <h1 className="text-xl text-cream dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
         Certifications
       </h1>
       <p className="text-content dark:text-content py-8 lg:max-w-3xl">
