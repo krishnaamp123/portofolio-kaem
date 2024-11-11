@@ -19,6 +19,10 @@ export default {
         "green-text": "#018C0F",
         "greenbg": "#D7FFE0",
         "cream": "#E2CEB1",
+        creamm: {
+          500: '#E2CEB1',
+          900: '#E2CEB1',
+        },
       },
     },
   },

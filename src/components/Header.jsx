@@ -47,15 +47,6 @@ function Header() {
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink
-              to="/technologies"
-              onClick={toggleClass}
-              className={({ isActive }) => (isActive ? "text-cream" : "text-light-heading")}
-            >
-              Technologies
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink
               to="/projects"
               onClick={toggleClass}
               className={({ isActive }) => (isActive ? "text-cream" : "text-light-heading")}

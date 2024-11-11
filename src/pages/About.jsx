@@ -1,10 +1,11 @@
 import React from "react";
 import Work from "../components/Work";
+import Certificate from "../components/Certificate";
 import { personalDetails, workDetails, eduDetails, certifDetails} from "../Details";
 
 function About() {
   return (
-    <main className="bg-dark-mode container mx-auto max-width pt-5 pb-20 ">
+    <main className="bg-dark-mode container mx-auto max-width pt-5 pb-20">
       <section>
       <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
           About Me
@@ -46,10 +47,7 @@ function About() {
         )}
       </section>
       <section>
-      <h1 className="text-xl text-dark-heading dark:text-cream md:text-3xl xl:text-4xl xl:leading-tight font-bold">
-        Certification
-        </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{certifDetails.certif}</p>
+        <Certificate />
       </section>
     </main>
   );
