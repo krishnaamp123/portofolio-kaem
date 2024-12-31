@@ -10,15 +10,15 @@ function Header() {
   };
 
   return (
-    <header className="bg-dark-mode text-light-content container mx-auto md:flex justify-between py-2 max-width">
+    <header className="bg-dark-mode dark:bg-dark-mode text-light-content dark:text-light-content container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/" className="flex items-center">
           <img className="w-12" src={logos.logogradient} alt="logo" />
-          <span className="ml-2 font-semibold text-lg text-light-heading">Portonya kaem</span>
+          <span className="ml-2 font-semibold text-lg text-light-heading dark:text-light-heading">Portonya kaem</span>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
+            className="stroke-white dark:stroke-white md:hidden"
             width="25"
             height="20"
             viewBox="0 0 16 13"
@@ -35,7 +35,7 @@ function Header() {
         </div>
       </div>
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
-        <ul className="text-light-heading font-medium md:flex items-center md:space-x-5 md:mr-10">
+        <ul className="text-light-heading dark:text-light-heading font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink
               to="/about"

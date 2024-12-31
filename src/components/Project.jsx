@@ -2,7 +2,7 @@ import React from "react";
 
 function Project({ title, image, description, techstack, githubLink }) {
   return (
-    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-creamm-900/50 dark:shadow-creamm-900/50 flex flex-col">
+    <article className="rounded-xl mt-10 overflow-hidden flex flex-col">
       <img src={image} alt="" loading="lazy" className="w-full h-auto" />
       <div className="bg-dark-card dark:bg-dark-card p-4 flex flex-col flex-grow">
         <h1 className="text-light-heading dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>

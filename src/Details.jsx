@@ -25,7 +25,7 @@ export const personalDetails = {
   name: "Thank You!",
   // tagline: "Please click on the menu above more information",
   img: profile,
-  about: `I’m I Ketut Krishna Mahendra Putra called Krishna or Kaem and this is my profile. I am a fresh graduate in Information Technology from Udayana University in Bali, actively seeking new opportunities. My passion and expertise lie in mobile app development, with a particular focus on using the Flutter Framework.`,
+  about: `My name is I Ketut Krishna Mahendra Putra, but you can call me Krishna or Kaem. I am a fresh graduate in Information Technology from Udayana University in Bali. Currently, I am working on several projects for the company I am employed at, focusing on app development and web development. I have a strong interest in creating mobile applications, particularly using the Flutter Framework. Additionally, I am actively completing and maintaining websites for hiring management and retail applications.`,
 };
 
 export const certifDetails = {
@@ -53,12 +53,20 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Junior IT Developer",
+    Description: "Creating mobile applications, APIs, and websites",
+    Company: `Expat. Roasters`,
+    Location: "Bali",
+    Type: "Full Time",
+    Duration: "Dec 2024 - Present",
+  },
+  {
     Position: "Information Technology Intern",
-    Description: "Creating mobile applications, APIs, and admin websites for retail applications",
+    Description: "Creating mobile applications, APIs, and websites",
     Company: `Expat. Roasters`,
     Location: "Bali",
     Type: "Internship",
-    Duration: "Sep 2024 - Present",
+    Duration: "Sep 2024 - Dec 2024",
   },
 ];
 
@@ -95,6 +103,13 @@ export const projectDetails = [
     description: `The system is used to streamline the ordering process for goods from retail customers and then manage the stock for each retail customer. The system uses Laravel as the backend framework, Flutter for developing the client application, and MySQL as the DBMS.`,
     techstack: "Flutter, Laravel",
     githubLink: "https://github.com/krishnaamp123/expatretail.git",
+  },
+  {
+    title: "Hiring Management",
+    image: projectImage2,
+    description: 'This system is designed for hiring management, connecting applicants with recruiters. It is built using a monolithic architecture, with Laravel serving as both the backend and frontend framework, and MySQL as the database management system (DBMS).',
+    techstack: "Laravel",
+    githubLink: "https://github.com/krishnaamp123/expathr.git",
   },
 ];
 
