@@ -14,7 +14,7 @@ function Header() {
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/" className="flex items-center">
           <img className="w-12" src={logos.logogradient} alt="logo" />
-          <span className="ml-2 font-semibold text-lg text-light-heading dark:text-light-heading">Portonya kaem</span>
+          <span className="ml-2 font-semibold text-lg text-light-heading dark:text-light-heading">Porto kaem</span>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg

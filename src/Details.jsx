@@ -12,6 +12,8 @@ import certif3 from "./assets/certificates/mengenalkotlin.jpg";
 // Porject Images
 import projectImage1 from "./assets/projects/outsourcing.png";
 import projectImage2 from "./assets/projects/expat.png";
+import projectImage3 from "./assets/projects/expat1.png";
+import projectImage4 from "./assets/projects/expatlogo.png";
 
 // Logos
 export const logos = {
@@ -25,7 +27,7 @@ export const personalDetails = {
   name: "Thank You!",
   // tagline: "Please click on the menu above more information",
   img: profile,
-  about: `My name is I Ketut Krishna Mahendra Putra, but you can call me Krishna or Kaem. I am a fresh graduate in Information Technology from Udayana University in Bali. Currently, I am working on several projects for the company I am employed at, focusing on app development and web development. I have a strong interest in creating mobile applications, particularly using the Flutter Framework. Additionally, I am actively completing and maintaining websites for hiring management and retail applications.`,
+  about: `My name is I Ketut Krishna Mahendra Putra, but you can call me Krishna or Kaem. I am an Information Technology graduate from Udayana University, Bali. Currently, I am working on several projects for the company I am employed at, focusing on app and web development. I have a strong interest in creating mobile applications, particularly using the Flutter Framework. Additionally, I am responsible for developing and maintaining websites for the employee portal and hiring management system, as well as applications for wholesale and retail management.`,
 };
 
 export const certifDetails = {
@@ -98,18 +100,23 @@ export const projectDetails = [
     githubLink: "https://github.com/krishnaamp123/outsourcing.git",
   },
   {
-    title: "Retail Application",
+    title: "Wholesale Application",
     image: projectImage2,
-    description: `The system is used to streamline the ordering process for goods from retail customers and then manage the stock for each retail customer. The system uses Laravel as the backend framework, Flutter for developing the client application, and MySQL as the DBMS.`,
+    description: `The system is used to streamline the ordering process for goods from wholesale customers and then manage the stock for each wholesale customer. The system uses Laravel as the backend framework, Flutter for developing the client application, and MySQL as the DBMS.`,
     techstack: "Flutter, Laravel",
-    githubLink: "https://github.com/krishnaamp123/expatretail.git",
   },
   {
     title: "Hiring Management",
-    image: projectImage2,
-    description: 'This system is designed for hiring management, connecting applicants with recruiters. It is built using a monolithic architecture, with Laravel serving as both the backend and frontend framework, and MySQL as the database management system (DBMS).',
+    image: projectImage3,
+    description: 'This system is designed to streamline the recording of applicant data across all stages of the hiring process, from application submission to shortlisting, interviews, and final hiring. It is built using Laravel for both the backend and frontend, with MySQL as the database management system and Bootstrap for styling.',
     techstack: "Laravel",
-    githubLink: "https://github.com/krishnaamp123/expathr.git",
+    previewLink: "https://recruitment.expatroasters.com",
+  },
+  {
+    title: "Employee Portal",
+    image: projectImage4,
+    description: `This system is used to store data on purchases using free of charge made by employees and monitor them, besides that it is also used to provide information to each department and newsletters for all employees. The system is made using Laravel for the frontend and backend, the database uses MySQL and Bootstrap for styling.`,
+    techstack: "Laravel",
   },
 ];
 
