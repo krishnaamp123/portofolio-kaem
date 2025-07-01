@@ -1,10 +1,11 @@
 import React from "react";
 
-function Project({ title, image, description, techstack, githubLink, previewLink }) {
+function Project({ title, image, description, techstack, githubLink, previewLink, backgroundColor = "#363636"}) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden flex flex-col">
       <img src={image} alt="" loading="lazy" className="w-full h-auto" />
-      <div className="bg-dark-card dark:bg-dark-card p-4 flex flex-col flex-grow">
+      {/* <div className={`${backgroundColor} p-4 flex flex-col flex-grow`}> */}
+      <div style={{ backgroundColor }} className="p-4 flex flex-col flex-grow">
         <h1 className="text-light-heading dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
         <h3 className="text-light-heading dark:text-light-heading font-medium pt-4">
