@@ -28,7 +28,7 @@ export const personalDetails = {
   name: "Thank You!",
   // tagline: "Please click on the menu above more information",
   img: profile,
-  about: `My name is I Ketut Krishna Mahendra Putra, but you can call me Krishna or Kaem. I am an Information Technology graduate from Udayana University, Bali. Currently, I am working on several projects for the company I am employed at, focusing on app and web development. I have a strong interest in creating mobile applications, particularly using the Flutter Framework. Additionally, I am responsible for developing and maintaining websites for the employee portal and hiring management system, as well as applications for wholesale and retail management.`,
+  about: `I’m Krishna, an IT graduate from Udayana University with a passion for creating impactful digital experiences. I specialize in web development using Laravel and mobile app development with Flutter, bringing both performance and clean design to every project. I have experience in developing employee portals, hiring management systems, and wholesale management applications, as well as maintaining retail management applications. I also have hands on experience in setting up and managing shared hosting and VPS environments. I combine technical expertise with problem solving skills to deliver solutions that work and last.`,
 };
 
 export const certifDetails = {
@@ -118,6 +118,7 @@ export const projectDetails = [
     image: projectImage4,
     description: `This system is used to store data on purchases using free of charge made by employees and monitor them, besides that it is also used to provide information to each department and newsletters for all employees. The system is made using Laravel for the frontend and backend, the database uses MySQL and Bootstrap for styling.`,
     techstack: "Laravel",
+    previewLink: "https://internal.expatroasters.com",
   },
   {
     title: "Good Company Bali",
